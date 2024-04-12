@@ -1,2 +1,3 @@
-# Resume-Screening-App
-Resume Screening App With Python and Machine Learning 
+# Resume Application Tracking system
+
+Dataset :https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
