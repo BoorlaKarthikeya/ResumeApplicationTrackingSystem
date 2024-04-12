@@ -2,6 +2,6 @@ streamlit
 scikit-learn
 pandas
 numpy
-nltk
+nltk==3.8.1
 re
 pickle
