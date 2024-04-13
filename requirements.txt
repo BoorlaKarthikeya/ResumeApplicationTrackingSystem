@@ -5,4 +5,4 @@ numpy
 nltk==3.8.1
 re
 pickle
-google.generativeai
+google-generativeai
