@@ -2,3 +2,4 @@ pandas
 numpy
 nltk==3.8.1
 google-generativeai
+scikit-learn==1.3.0
