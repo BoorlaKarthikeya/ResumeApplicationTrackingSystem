@@ -5,3 +5,4 @@ numpy
 nltk
 re
 pickle
+google.generativeai
