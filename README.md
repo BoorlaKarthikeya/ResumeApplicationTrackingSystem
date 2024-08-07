@@ -15,17 +15,17 @@ The Resume Application Tracking System (ATS) is designed to streamline the recru
 
 ## Features
 1. **Department Prediction**
-- **Description:** This feature uses a machine learning model to predict the department in which a candidate is most likely to get a job.
-- **Model Used:** OneVsRestClassifier with KNeighborsClassifier.
-How it Works:
-Extracts keywords from the resume.
-- Uses the classifier to predict the suitable department based on these keywords.
+    - **Description:** This feature uses a machine learning model to predict the department in which a candidate is most likely to get a job.
+    - **Model Used:** OneVsRestClassifier with KNeighborsClassifier.
+    - How it Works:
+        - Extracts keywords from the resume.
+        - Uses the classifier to predict the suitable department based on these keywords.
 2. **ATS Score and Keyword Analysis**
-- **Description:** This feature compares a given resume with a job description to provide an ATS score and identify missing keywords using gemini API key.
-- **How it Works:**
-    - Takes a resume and a job description as input.
-    - Analyzes the resume to calculate an ATS score based on the job description.
-    - Identifies and lists the keywords missing from the resume that are present in the job description.
+    - **Description:** This feature compares a given resume with a job description to provide an ATS score and identify missing keywords using gemini API key.
+    - **How it Works:**
+        - Takes a resume and a job description as input.
+        - Analyzes the resume to calculate an ATS score based on the job description.
+        - Identifies and lists the keywords missing from the resume that are present in the job description.
 
  Dataset :https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
 ## Demo
